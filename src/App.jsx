@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import HowWork from "./components/HowWorks";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Waitlist from "./components/Waitlist.jsx";
+import Testimonial from "./components/testimonial.jsx";
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
         <HowWork/>
         {/* <AboutUs /> */}
         {/* <Contact /> */}
+        <Testimonial/>
         <Waitlist/>
       </main>
       <Footer />

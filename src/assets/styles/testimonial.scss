@@ -1,0 +1,20 @@
+.carousel-indicators {
+  bottom: -70px; // Adjust position if needed
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: rgba(238, 187, 0, 0.55); // Darker indicators for better visibility
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(238, 187, 0); // Highlight the active dot
+}
+.fa-quote-left{
+  color: white;
+}
+.profile-circle{
+  margin-bottom: 20px;
+}
