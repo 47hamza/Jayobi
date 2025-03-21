@@ -1,0 +1,18 @@
+# Ignore build directories
+/.github/
+
+# Ignore node_modules
+/node_modules/
+
+# Ignore compiled files
+/*.log
+/*.json
+/*.lock
+
+/public/
+README.md
+
+.gitignore
+
+/src/assets/
+/src/fonts/

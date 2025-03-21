@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/gilroy-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/gilroy-bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/gilroy-boldItalic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/gilroy-italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/gilroy-light.otf") format("opentype");
+  font-weight: 300; /* Light weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/gilroy-lightItalic.otf") format("opentype");
+  font-weight: 300; /* Light weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/gilroy-medium.otf") format("opentype");
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/gilroy-mediumItalic.otf") format("opentype");
+  font-weight: 500; /* Medium weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/gilroy-semibold.otf") format("opentype");
+  font-weight: 600; /* SemiBold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/gilroy-semiboldItalic.otf") format("opentype");
+  font-weight: 600; /* SemiBold weight */
+  font-style: italic;
+}
+
+:root {
+  --primary: #e51c21;
+  --secondary:#eebb00;
+  --main_text: #222232;
+  --family-gilroy: "Gilroy", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: var(--main_text);
+  font-family: var(--family-gilroy);
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: var(--family-gilroy);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: initial;
+}
+
+textarea,
+button,
+input {
+  outline: none;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  display: none;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+main {
+  min-height: calc(100vh - 56px);
+  padding-top: 93px;
+}
