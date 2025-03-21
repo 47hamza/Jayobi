@@ -10,6 +10,8 @@ import Projects from "./components/Projects";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
 import HowWork from "./components/HowWorks";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Waitlist from "./components/Waitlist.jsx";
 
 function App() {
   useEffect(() => {
@@ -30,6 +32,7 @@ function App() {
         <HowWork/>
         {/* <AboutUs /> */}
         {/* <Contact /> */}
+        <Waitlist/>
       </main>
       <Footer />
     </>

@@ -120,3 +120,17 @@ main {
   min-height: calc(100vh - 56px);
   padding-top: 93px;
 }
+
+.bThemeYellow{
+  background: #eebb00!important;
+}
+.cThemeYellow{
+  background: #eebb00!important;
+}
+.bThemeBlue{
+  background: #0b9cd8!important;
+}
+.cThemeBlue{
+  background: #0b9cd8!important;
+}
+
