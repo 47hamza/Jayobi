@@ -10,8 +10,10 @@ import Projects from "./components/Projects";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
 import HowWork from "./components/HowWorks";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Waitlist from "./components/Waitlist.jsx";
+import Benefits from "./components/Benefits.jsx";
+import Features from "./components/Feature.jsx";
+import FeatureWaiting from "./components/FeatureWaiting.jsx";
 import Testimonial from "./components/testimonial.jsx";
 
 function App() {
@@ -31,8 +33,9 @@ function App() {
         <Services />
         <Projects />
         <HowWork/>
-        {/* <AboutUs /> */}
-        {/* <Contact /> */}
+        <FeatureWaiting/>
+        <Benefits/>
+        <Features/>
         <Testimonial/>
         <Waitlist/>
       </main>

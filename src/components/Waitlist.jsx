@@ -1,59 +1,44 @@
-import waitlistIcon from '../assets/waitlist/wait.svg'
+import waitlistIcon from '../assets/waitlist/wait.svg';
 
 export default function Waitlist() {
   return (
-    <div className="bThemeYellow pt-5 pb-5">
-      <section className="container g-4">
-        <div className="row g-0">
-          <div className="col col-lg-7 d-flex justify-content-start align-items-center">
-            <div>
-              <div className="text-center text-lg-start">
-                <h1 className="display-4 fw-bold mb-2 mt-0">
-                  Build a highly engaged community with no efforts.
-                </h1>
-                <p>
-                  Commune offers the tools you need to build a highly engaged community with little
-                  to no efforts. Simply setup your Commune workspace, and manage everything from
-                  members to content from one central dashboard.
-                </p>
-              </div>
-              <form className="row g-3">
-                <div className="col-lg-6 col-xl-5">
-                  <label
-                    htmlFor="inputEmail"
-                    className="visually-hidden"
-                  >
-                    Email address
-                  </label>
-                  <input
-                    type="email"
-                    className="form-control form-control-lg"
-                    id="inputEmail"
-                    placeholder="Enter your e-mail address"
-                    required
-                  />
-                </div>
-                <div className="col-lg-4 col-xl-3">
-                  <button
-                    type="submit"
-                    className="btn btn-primary btn-lg mb-3 w-100"
-                  >
-                    Join Waitlist
-                  </button>
-                </div>
-              </form>
-            </div>
+    <div className="bg-yellow-400 py-12">
+      <section className="container mx-auto px-6 md:px-12 lg:px-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          <div>
+            <h1 className="text-4xl font-bold text-gray-900 leading-tight mb-4">
+              Build a Highly Engaged Community Effortlessly
+            </h1>
+            <p className="text-gray-700 text-lg mb-6">
+              Commune provides the essential tools to grow and manage a vibrant community seamlessly.
+              Set up your workspace effortlessly and control everything from members to content in a
+              centralized dashboard.
+            </p>
+            <form className="flex flex-col sm:flex-row gap-4">
+              <input
+                type="email"
+                className="w-full sm:w-72 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-600"
+                placeholder="Enter your e-mail address"
+                required
+              />
+              <button
+                type="submit"
+                className="bg-black text-white font-semibold px-6 py-3 rounded-lg hover:bg-gray-900 transition"
+              >
+                Join Waitlist
+              </button>
+            </form>
           </div>
-          <div className="col-md-4 col-xxl-3 ms-auto d-none d-lg-block">
+          <div className="hidden lg:block">
             <img
               src={waitlistIcon}
-              className="img-fluid"
+              className="w-full max-w-xs mx-auto"
               loading="lazy"
+              alt="Waitlist Illustration"
             />
           </div>
         </div>
       </section>
     </div>
-
   );
 }
