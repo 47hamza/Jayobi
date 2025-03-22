@@ -97,7 +97,7 @@ body {
 a,
 a:hover {
   text-decoration: none;
-  color: initial;
+  /* color: initial; */
 }
 
 textarea,

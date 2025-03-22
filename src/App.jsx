@@ -15,6 +15,8 @@ import Benefits from "./components/Benefits.jsx";
 import Features from "./components/Feature.jsx";
 import FeatureWaiting from "./components/FeatureWaiting.jsx";
 import Testimonial from "./components/testimonial.jsx";
+import Faq from "./components/Faq.jsx";
+import Pricing from "./components/Pricing.jsx";
 
 function App() {
   useEffect(() => {
@@ -32,12 +34,14 @@ function App() {
         <Hero />
         <Services />
         <Projects />
-        <HowWork/>
-        <FeatureWaiting/>
-        <Benefits/>
-        <Features/>
-        <Testimonial/>
-        <Waitlist/>
+        <HowWork />
+        <FeatureWaiting />
+        <Benefits />
+        <Features />
+        <Testimonial />
+        <Waitlist />
+        <Pricing/>
+        <Faq />
       </main>
       <Footer />
     </>
