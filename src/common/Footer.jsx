@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import logo2 from "../assets/logo2.jpeg";
 import twitter from "../assets/twitter.svg";
 import instagram from "../assets/instagram.svg";

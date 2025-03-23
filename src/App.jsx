@@ -7,8 +7,6 @@ import Aos from "aos";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
-import AboutUs from "./components/AboutUs";
-import Contact from "./components/Contact";
 import HowWork from "./components/HowWorks";
 import Waitlist from "./components/Waitlist.jsx";
 import Benefits from "./components/Benefits.jsx";
