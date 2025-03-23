@@ -10,12 +10,12 @@ const benefits = [
 
 export default function BenefitsFullScreen() {
   return (
-    <section className="relative w-full min-h-screen bg-black text-white flex flex-col items-center justify-center px-6">
+    <section className="relative w-full min-h-screen bg-background text-white flex flex-col items-center justify-center px-6">
       {/* Background Glow */}
-      <div className="absolute inset-0 bg-gradient-to-r from-cyan-900 via-black to-cyan-900 opacity-40 blur-[120px]" />
+      {/* <div className="absolute inset-0 bg-gradient-to-r from-cyan-900 via-black to-cyan-900 opacity-40 blur-[120px]" /> */}
 
       {/* Section Title */}
-      <h2 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-12 md:mb-16 uppercase tracking-wide text-center">
+      <h2 className="text-2xl md:text-5xl font-bold text-primary mb-12 md:mb-16 uppercase tracking-wide text-center">
         Maximize Productivity
       </h2>
 

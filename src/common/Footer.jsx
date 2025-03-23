@@ -5,7 +5,7 @@ import discord from "../assets/discord.svg";
 
 const Footer = () => {
   return (
-    <footer className="w-full px-4 xl:px-8 py-12 md:pt-16 pb-8 border-t border-[#291A27] bg-main_text">
+    <footer className="w-full px-4 xl:px-8 py-12 md:pt-16 pb-8 border-t border-[#291A27] bg-background">
       <div className="max-w-[1280px] mx-auto w-full">
         <div className="grid grid-cols-1 md:grid-cols-4 md:gap-12 gap-6">
           <div>
@@ -14,7 +14,7 @@ const Footer = () => {
               alt="logo"
               className="w-14"
             />
-            <p className="mt-6 text-sm font-light text-white">
+            <p className="mt-6 text-sm font-light text-secondary font-medium">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias ea eos ut
               sapiente voluptatibus fuga veniam
             </p>
@@ -53,67 +53,67 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col gap-6">
-            <h4 className="text-primary text-base font-semibold">Quick Links</h4>
+            <h4 className="text-primary text-lg font-semibold">Quick Links</h4>
             <a
               href="#"
-              className="text-white"
+              className="text-secondary"
             >
               About us
             </a>
 
             <a
               href="#"
-              className="text-white"
+              className="text-secondary"
             >
               Privacy Policy
             </a>
             <a
               href="#"
-              className="text-white"
+              className="text-secondary"
             >
               Terms of Service
             </a>
           </div>
 
           <div className="flex flex-col gap-6">
-            <h4 className="text-primary text-base font-semibold">Help</h4>
+            <h4 className="text-primary text-lg font-semibold">Help</h4>
             <a
               href="#"
-              className="text-white"
+              className="text-secondary"
             >
               Contact
             </a>
             <a
               href="#"
-              className="text-white"
+              className="text-secondary"
             >
               FAQs
             </a>
             <a
               href="#"
-              className="text-white"
+              className="text-secondary"
             >
               Have Your Say
             </a>
           </div>
 
           <div className="flex flex-col gap-6">
-            <h4 className="text-primary text-base font-semibold">Get In Touch</h4>
+            <h4 className="text-primary text-lg font-semibold">Get In Touch</h4>
             <a
               href="#"
-              className="text-white"
+              className="text-secondary"
             >
               Address
             </a>
             <a
               href="#"
-              className="text-white"
+              className="text-secondary"
             >
               Email
             </a>
             <a
               href="#"
-              className="text-white"
+              className="text-secondary"
             >
               Phone Number
             </a>
@@ -122,7 +122,7 @@ const Footer = () => {
 
         <hr className="mt-12 bg-[#D9D9D933] h-[1px]" />
 
-        <p className="text-white font-light text-sm text-center mt-7">
+        <p className="text-secondary font-light text-sm text-center mt-7">
           © Copyright 2022, All Rights Reserved by Jayobi
         </p>
       </div>

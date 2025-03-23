@@ -6,10 +6,10 @@ export default function Waitlist() {
       <section className="container mx-auto px-6 md:px-12 lg:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>
-            <h1 className="text-4xl font-bold text-gray-900 leading-tight mb-4">
+            <h1 className="text-2xl md:text-5xl font-bold text-primary leading-tight mb-4">
               Build a Highly Engaged Community Effortlessly
             </h1>
-            <p className="text-gray-700 text-lg mb-6">
+            <p className="text-secondary font-medium text-lg mb-6">
               Commune provides the essential tools to grow and manage a vibrant community seamlessly.
               Set up your workspace effortlessly and control everything from members to content in a
               centralized dashboard.

@@ -1,32 +1,71 @@
+import {
+  FaBriefcase,
+  FaCalendarAlt,
+  FaClock,
+  FaComments,
+  FaFileInvoiceDollar,
+  FaPlane,
+  FaRegFileAlt,
+  FaUserCheck,
+  FaUsers,
+} from "react-icons/fa";
 import servicebg from "../assets/Services/service-bg.png";
-import { Fragment } from "react";
 
-const data = [
+
+const features = [
   {
-    icon: "⚡️",
-    title: "High Priority Services",
-    points: [
-      "Design for social media graphics and video editing",
-      "Landing pages and sales letters.",
-      "Custom Linktr.ee creation",
-    ],
+    icon: <FaCalendarAlt />,
+    title: "Calendar Management",
+    description:
+      "Create and manage calendars to easily track team availability, deadlines, and key events—all in one place.",
   },
   {
-    icon: "👓",
-    title: "Secondary Services",
-    points: [
-      "Website redesign, including e-commerce integration",
-      "Professional editing for course videos",
-    ],
+    icon: <FaUsers />,
+    title: "Availability Sharing",
+    description:
+      "Real-time availability sharing with your team. Changes are automatically reflected in work schedules, ensuring everyone is always up to date.",
   },
   {
-    icon: "🚀",
-    title: "Future Launches",
-    points: [
-      "Course platform (Sept. 2025)",
-      "App with various tests (Jun. 2025)",
-      "Personal Linktr.ee & websites (Mar.2025)",
-    ],
+    icon: <FaClock />,
+    title: "Workshift Planning",
+    description:
+      "Plan, assign, and track shifts effortlessly. The work schedule integrates with both availability and holiday requests for smooth planning.",
+  },
+  {
+    icon: <FaPlane />,
+    title: "Holidays & Time-Off Requests",
+    description:
+      "Team members can easily submit holiday requests, which are instantly integrated into their work shifts and calendars—no confusion, no missed time-offs.",
+  },
+  {
+    icon: <FaBriefcase />,
+    title: "Job Posting & Hiring Requests",
+    description:
+      "Post job openings or initiate hiring requests directly from your dashboard, then manage candidate applications through a centralized portal.",
+  },
+  {
+    icon: <FaUserCheck />,
+    title: "Candidate Management",
+    description:
+      "Keep track of candidates’ progress, from application to interview and hiring decisions—all in one place.",
+  },
+  {
+    icon: <FaRegFileAlt />,
+    title: "CV Builder",
+    description:
+      "Create professional resumes effortlessly with our CV Builder tool. Customize templates and generate polished resumes in minutes.",
+  },
+  {
+    icon: <FaFileInvoiceDollar />,
+    title: "Payslips Sharing & Storage",
+    description:
+      "Securely share payslips with your team and store them for easy access. Simplify payroll communication and ensure employees have access to their payment history.",
+  },
+  {
+    icon: <FaComments />,
+    title: "Integrated Chat",
+    description:
+      "Stay connected with your team through real-time chat. Share updates, discuss shifts, and collaborate easily—all within the app.",
   },
 ];
 
@@ -37,32 +76,22 @@ export default function Services() {
       className="py-16 md:py-24 md:!pt-32 !bg-no-repeat !bg-cover max-md:!bg-fixed md:-mt-14 relative"
       style={{ background: `url(${servicebg})` }}
     >
-      <div className="max-w-[1240px] mx-auto px-4 xl:px-6 w-full">
-        <h2 className="text-white text-center text-3xl md:text-5xl font-semibold mb-10">
-          Our Services
+      <div className="container mx-auto px-6 text-center">
+        <h2 className="text-2xl md:text-5xl font-bold text-primary">
+          Experience Seamless Team Management
         </h2>
-        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
-          {data?.map((itm, idx) => (
+        <p className="text-lg text-secondary max-w-2xl mx-auto mb-12">
+          Manage work schedules, recruitment, communication, and more with our all-in-one platform.
+        </p>
+        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
+          {features.map((feature, index) => (
             <div
-              key={idx + 1}
-              className="px-6 py-8 bg-white w-full rounded-2xl text-center space-y-5"
-              style={{
-                boxShadow: "0px 7.86px 0px 0px #4C4C67",
-              }}
+              key={index}
+              className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center transition transform hover:scale-105"
             >
-              <h2 className="text-6xl">{itm.icon}</h2>
-              <p className="font-bold text-2xl">{itm.title}</p>
-
-              <div className="max-w-[300px] mx-auto">
-                {itm.points.map((p, i) => (
-                  <Fragment key={p}>
-                    <p>{p}</p>
-                    {i < itm.points.length - 1 && (
-                      <hr className="w-full border-gray-800 my-2.5 opacity-20" />
-                    )}
-                  </Fragment>
-                ))}
-              </div>
+              <div className=" text-4xl mb-4">{feature.icon}</div>
+              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+              <p className="text-secondary text-center font-medium">{feature.description}</p>
             </div>
           ))}
         </div>

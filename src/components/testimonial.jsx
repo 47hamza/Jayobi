@@ -43,7 +43,7 @@ export default function Testimonial() {
   }, []);
 
   return (
-    <section className="bg-[#222232] py-20">
+    <section className="bg-background py-20">
       <div className="max-w-4xl mx-auto text-center relative">
         {/* Quote Icon using FontAwesome CDN */}
         <i className="fas fa-quote-left text-white text-6xl pb-4"></i>

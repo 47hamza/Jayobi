@@ -31,11 +31,11 @@ function App() {
       <main>
         <Hero />
         <Services />
-        <Projects />
+        {/* <Projects /> */}
         <HowWork />
         <FeatureWaiting />
         <Benefits />
-        <Features />
+        {/* <Features /> */}
         <Testimonial />
         <Waitlist />
         <Pricing/>

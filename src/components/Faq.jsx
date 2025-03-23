@@ -31,10 +31,10 @@ export default function Faq() {
       className="w-full px-6 pt-16 md:pt-20 pb-20 md:pb-24 "
       id="faq"
     >
-      <h2 className="text-2xl md:text-4xl font-medium !font-poppins text-center text-primary">
+      <h2 className="text-2xl md:text-5xl font-medium !font-poppins text-center text-primary">
         FAQs
       </h2>
-      <p className="font-light text-sm text-center">Got questions? We’ve got answers.</p>
+      <p className="font-medium text-lg text-center text-secondary">Got questions? We’ve got answers.</p>
       <div className="max-w-[700px] md:p-6 mx-auto w-full rounded-xl ">
         <div className="flex lg:flex-nowrap gap-14 md:gap-6 mt-6 flex-wrap justify-center">
           <div className="relative w-full lg:w-[90%]">

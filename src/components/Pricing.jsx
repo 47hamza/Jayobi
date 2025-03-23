@@ -1,12 +1,14 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
+import Button from "../common/Button";
+
 
 const Pricing = () => {
   return (
     <section className="bg-gray-100 py-12">
       <div className="max-w-[1150px] mx-auto px-4 xl:px-6 w-full">
-        <h2 className="text-3xl font-bold text-main_text text-center">Pricing Plans</h2>
-        <p className="font-light text-sm text-center">Choose a plan that fits your team’s size and needs.</p>
+        <h2 className="text-2xl md:text-5xl font-bold text-primary text-center">Pricing Plans</h2>
+        <p className="font-medium text-lg text-center text-secondary">Choose a plan that fits your team’s size and needs.</p>
 
         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-3 mt-12">
           <div className="bg-gradient-to-b from-gray-900 to-gray-300 p-6 rounded-lg shadow-lg flex flex-col justify-center items-center">
@@ -23,10 +25,10 @@ const Pricing = () => {
               <li>✖ Feature 5</li>
             </ul>
             <div className="flex justify-center mt-2">
-              <button className="bg-secondary text-black px-4 py-2 rounded hover:bg-yellow-600 flex items-center gap-2">
+              <Button className=" hover:bg-yellow-600 flex items-center gap-2  font-medium">
                 Choose Plan
-                <BsArrowRight className="fill-black" />
-              </button>
+                <BsArrowRight className="fill-white" />
+              </Button>
             </div>
           </div>
 
@@ -45,10 +47,10 @@ const Pricing = () => {
               <li>✖ Feature 5</li>
             </ul>
             <div className="flex justify-center mt-2">
-              <button className="bg-secondary text-black px-4 py-2 rounded hover:bg-yellow-600 flex items-center gap-2">
+            <Button className=" hover:bg-yellow-600 flex items-center gap-2  font-medium">
                 Choose Plan
-                <BsArrowRight className="fill-black" />
-              </button>
+                <BsArrowRight className="fill-white" />
+              </Button>
             </div>
           </div>
 
@@ -67,10 +69,10 @@ const Pricing = () => {
               <li>✔ Feature 5</li>
             </ul>
             <div className="flex justify-center mt-2">
-              <button className="bg-secondary text-black px-4 py-2 rounded hover:bg-yellow-600 flex items-center gap-2">
+            <Button className=" hover:bg-yellow-600 flex items-center gap-2  font-medium">
                 Choose Plan
-                <BsArrowRight className="fill-black" />
-              </button>
+                <BsArrowRight className="fill-white" />
+              </Button>
             </div>
           </div>
         </div>

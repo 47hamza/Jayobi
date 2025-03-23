@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { FaEnvelope } from "react-icons/fa";
+import Button from "../common/Button";
+
 
 const featuresComingSoon = [
   "Job Posting for External Candidates",
@@ -19,11 +21,11 @@ export default function WaitingListSection() {
   return (
     <section className="py-24 bg-gray-900 text-white">
       <div className="container mx-auto px-6 max-w-5xl text-center">
-        <h2 className="text-4xl font-bold mb-4 text-white">Exciting Features Are On the Way!</h2>
-        <p className="text-lg text-gray-300 mb-10 max-w-2xl mx-auto">
+        <h2 className="text-2xl md:text-4xl font-bold mb-4 text-primary">Exciting Features Are On the Way!</h2>
+        <p className="text-lg text-secondary mb-10 max-w-2xl mx-auto">
           Stay ahead of the curve. Join our waiting list and be the first to access upcoming features.
         </p>
-        <div className="bg-gray-800 shadow-xl rounded-2xl p-12 flex flex-col md:flex-row items-center gap-10">
+        <div className="bg-background shadow-xl rounded-2xl p-12 flex flex-col md:flex-row items-center gap-10">
           <div className="flex-1 text-left">
             <ul className="space-y-4 text-lg">
               {featuresComingSoon.map((feature, index) => (
@@ -47,12 +49,8 @@ export default function WaitingListSection() {
                   className="w-full pl-12 pr-4 py-3 rounded-lg bg-gray-600 border border-gray-500 text-white focus:ring-2 focus:ring-green-400 focus:outline-none"
                 />
               </div>
-              <button
-                type="submit"
-                className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all"
-              >
-                Join the Waiting List
-              </button>
+             
+              <Button className="font-semiold" type="submit">Join the Waiting List</Button>
             </form>
           </div>
         </div>
