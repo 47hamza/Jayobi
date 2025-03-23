@@ -1,5 +1,4 @@
 import logo from "../assets/logo.jpeg";
-import Button from "./Button";
 
 const links = [
   {
