@@ -34,7 +34,7 @@ const Header = () => {
         >
           <img
             src={logo}
-            alt="Mindful Marketer"
+            alt="Jayobi"
             className="w-14"
             loading="lazy"
           />
