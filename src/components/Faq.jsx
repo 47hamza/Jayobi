@@ -36,9 +36,9 @@ export default function Faq() {
       </h2>
       <p className="font-light text-sm text-center">Got questions? We’ve got answers.</p>
       <div className="max-w-[700px] md:p-6 mx-auto w-full rounded-xl ">
-        <div className="flex lg:flex-nowrap gap-14 md:gap-6 items-start mt-6 flex-wrap">
+        <div className="flex lg:flex-nowrap gap-14 md:gap-6 mt-6 flex-wrap justify-center">
           <div className="relative w-full lg:w-[90%]">
-            <div className="relative z-30 flex flex-col gap-4">
+            <div className="flex flex-col gap-4">
               {faqs.map((faq, index) => (
                 <div
                   key={index}
