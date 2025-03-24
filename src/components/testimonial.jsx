@@ -43,7 +43,7 @@ export default function Testimonial() {
   }, []);
 
   return (
-    <section className="bg-background py-20 p-5 md:p-0">
+    <section className="bg-background py-20 p-5">
       <div className="max-w-4xl mx-auto text-center relative">
         <h2 className="text-2xl md:text-5xl font-bold text-primary">
           Testimonials
