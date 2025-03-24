@@ -45,7 +45,7 @@ export default function Testimonial() {
   return (
     <section className="w-full px-6 py-16 md:py-20 bg-background">
       <div className="max-w-4xl mx-auto w-full relative text-center">
-        <h2 className="text-3xl md:text-5xl font-bold text-primary">Testimonials</h2>
+        <h2 className="text-3xl md:text-5xl mb-2 font-bold text-primary">Testimonials</h2>
         <p className="text-lg text-white max-w-4xl mx-auto mb-12 text-center">
           Here’s how our users are benefiting from the platform.
         </p>

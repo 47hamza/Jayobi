@@ -20,7 +20,9 @@ export default function WaitingListSection() {
   return (
     <section className="w-full px-6 py-16 md:py-20 bg-background text-white">
       <div className="max-w-[1240px] mx-auto w-full text-center">
-        <h2 className="text-3xl md:text-5xl font-bold text-primary text-center">Feature Waiting</h2>
+        <h2 className="text-3xl md:text-5xl mb-2 font-bold text-primary text-center">
+          Feature Waiting
+        </h2>
         <p className="font-medium text-lg text-center text-white">
           Some of our features are in development and coming soon! Be the first to know when they’re
           available.

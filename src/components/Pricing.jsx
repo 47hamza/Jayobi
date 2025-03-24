@@ -5,7 +5,9 @@ const Pricing = () => {
   return (
     <section className="w-full px-6 py-16 md:py-20 bg-gray-100">
       <div className="max-w-[1240px] mx-auto w-full">
-        <h2 className="text-3xl md:text-5xl font-bold text-primary text-center">Pricing Plans</h2>
+        <h2 className="text-3xl md:text-5xl mb-2 font-bold text-primary text-center">
+          Pricing Plans
+        </h2>
         <p className="font-medium text-lg text-center text-secondary">
           Choose a plan that fits your team’s size and needs.
         </p>

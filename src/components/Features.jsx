@@ -77,7 +77,7 @@ export default function Features() {
       style={{ background: `url(${servicebg})` }}
     >
       <div className="max-w-[1240px] mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-5xl font-bold text-primary">Features</h2>
+        <h2 className="text-3xl md:text-5xl mb-2 font-bold text-primary">Features</h2>
         <p className="text-lg text-white max-w-4xl mx-auto mb-12">
           Experience seamless management of your team’s work schedules, recruitment, communication,
           and more with our all-in-one platform.

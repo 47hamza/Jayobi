@@ -32,7 +32,7 @@ export default function Faq() {
       id="faq"
     >
       <div className="max-w-[1240px] mx-auto w-full">
-        <h2 className="text-3xl md:text-5xl font-bold text-center text-primary">FAQs</h2>
+        <h2 className="text-3xl md:text-5xl mb-2 font-bold text-center text-primary">FAQs</h2>
         <p className="font-medium text-lg text-center text-secondary">
           Got questions? We’ve got answers.
         </p>

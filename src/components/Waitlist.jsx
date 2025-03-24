@@ -6,7 +6,7 @@ export default function Waitlist() {
       <div className="max-w-[1240px] mx-auto w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>
-            <h1 className="text-3xl md:text-5xl font-bold text-primary leading-tight mb-4">
+            <h1 className="text-3xl md:text-5xl mb-2 font-bold text-primary leading-tight mb-4">
               Build a Highly Engaged Community Effortlessly
             </h1>
             <p className="text-secondary font-medium text-lg mb-6">

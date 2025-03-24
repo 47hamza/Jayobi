@@ -47,7 +47,7 @@ export default function BenefitsFullScreen() {
     <section className="w-full px-6 py-16 md:py-20">
       <div className="max-w-[1240px] mx-auto w-full">
         <div className="relative text-white flex flex-col items-center justify-center">
-          <h2 className="text-3xl md:text-5xl font-bold text-primary">Benefits</h2>
+          <h2 className="text-3xl md:text-5xl mb-2 font-bold text-primary">Benefits</h2>
           <p className="text-lg text-secondary max-w-4xl mx-auto mb-12 text-center">
             Maximize your team&#39;s productivity and streamline your operations with our
             feature-packed platform.

@@ -24,7 +24,7 @@ const Projects = () => {
         />
         <div className="relative z-10">
           <h6 className="text-center font-medium uppercase text-primary mb-6">Projects</h6>
-          <h2 className="text-3xl md:text-5xl font-semibold leading-snug text-center">
+          <h2 className="text-3xl md:text-5xl mb-2 font-semibold leading-snug text-center">
             Examples of Our Work
           </h2>
           <p className="text-lg text-center mt-3">
