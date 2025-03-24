@@ -61,7 +61,9 @@ const Projects = () => {
           </div>
 
           <div className="text-center mt-14">
-            <Button className="bg-secondary text-white">Explore more projects by Jayobi here</Button>
+            <Button className="bg-secondary text-white">
+              Explore more projects by Jayobi here
+            </Button>
           </div>
         </div>
       </div>

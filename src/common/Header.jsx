@@ -49,7 +49,6 @@ const Header = () => {
               {link.title}
             </a>
           ))}
-    
         </div>
       </div>
     </header>

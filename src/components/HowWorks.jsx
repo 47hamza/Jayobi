@@ -26,9 +26,14 @@ const data = [
 
 export default function HowWork() {
   return (
-    <section className="w-full px-6 py-16 md:py-20" id="how-it-works">
+    <section
+      className="w-full px-6 py-16 md:py-20"
+      id="how-it-works"
+    >
       <div className="max-w-[1280px] mx-auto w-full">
-        <h2 className="text-2xl md:text-5xl font-bold text-primary text-center">How It Works Section</h2>
+        <h2 className="text-3xl md:text-5xl font-bold text-primary text-center">
+          How It Works Section
+        </h2>
         <p className="font-medium text-lg text-center text-secondary">
           Getting started is simple. Here’s how you can begin.
         </p>

@@ -5,12 +5,10 @@ import Header from "./common/Header";
 import Footer from "./common/Footer";
 import Aos from "aos";
 import Hero from "./components/Hero";
-import Services from "./components/Services";
-import Projects from "./components/Projects";
+import Features from "./components/Features";
 import HowWork from "./components/HowWorks";
 import Waitlist from "./components/Waitlist.jsx";
 import Benefits from "./components/Benefits.jsx";
-import Features from "./components/Feature.jsx";
 import FeatureWaiting from "./components/FeatureWaiting.jsx";
 import Testimonial from "./components/testimonial.jsx";
 import Faq from "./components/Faq.jsx";
@@ -30,10 +28,10 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <Services />
+        <Features />
         <Benefits />
         <Testimonial />
-        <Pricing/>
+        <Pricing />
         <HowWork />
         <FeatureWaiting />
         <Faq />

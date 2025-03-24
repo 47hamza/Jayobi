@@ -76,9 +76,9 @@
   --primary: #0b9aee;
   --secondary: #7b6f66;
   /* dark background */
-  --background: #292a2f ;
+  --background: #292a2f;
   /* theme-yellow  */
-  --theme-yellow: #eebb00 ;
+  --theme-yellow: #eebb00;
   --family-gilroy: "Gilroy", sans-serif;
 }
 
@@ -124,19 +124,18 @@ main {
   padding-top: 93px;
 }
 
-.bThemeYellow{
-  background: #eebb00!important;
+.bThemeYellow {
+  background: #eebb00 !important;
 }
-.cThemeYellow{
-  background: #eebb00!important;
+.cThemeYellow {
+  background: #eebb00 !important;
 }
-.bThemeBlue{
-  background: #0b9cd8!important;
+.bThemeBlue {
+  background: #0b9cd8 !important;
 }
-.cThemeBlue{
-  background: #0b9cd8!important;
+.cThemeBlue {
+  background: #0b9cd8 !important;
 }
-.bGray{
-  background: #F4F4F4!important;
+.bGray {
+  background: #f4f4f4 !important;
 }
-
