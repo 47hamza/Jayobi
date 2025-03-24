@@ -31,15 +31,13 @@ function App() {
       <main>
         <Hero />
         <Services />
-        {/* <Projects /> */}
+        <Benefits />
+        <Testimonial />
+        <Pricing/>
         <HowWork />
         <FeatureWaiting />
-        <Benefits />
-        {/* <Features /> */}
-        <Testimonial />
-        <Waitlist />
-        <Pricing/>
         <Faq />
+        <Waitlist />
       </main>
       <Footer />
     </>

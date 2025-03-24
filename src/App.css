@@ -73,9 +73,12 @@
 }
 
 :root {
-  --primary: #0b9cd8;
+  --primary: #0b9aee;
   --secondary: #7b6f66;
+  /* dark background */
   --background: #292a2f ;
+  /* theme-yellow  */
+  --theme-yellow: #eebb00 ;
   --family-gilroy: "Gilroy", sans-serif;
 }
 

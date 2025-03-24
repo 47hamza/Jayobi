@@ -43,13 +43,21 @@ export default function Testimonial() {
   }, []);
 
   return (
-    <section className="bg-background py-20">
+    <section className="bg-background py-20 p-5 md:p-0">
       <div className="max-w-4xl mx-auto text-center relative">
+        <h2 className="text-2xl md:text-5xl font-bold text-primary">
+          Testimonials
+        </h2>
+        <p className="text-lg text-secondary max-w-4xl mx-auto mb-12 text-center">
+          Here’s how our users are benefiting from the platform.
+        </p>
+
         {/* Quote Icon using FontAwesome CDN */}
         <i className="fas fa-quote-left text-white text-6xl pb-4"></i>
 
         {/* Testimonial Content */}
-        <div className="bg-white p-8 rounded-lg shadow-lg min-h-[300px] flex flex-col items-center relative overflow-hidden">
+        <div
+          className="bg-white p-8 rounded-lg shadow-lg min-h-[300px] flex flex-col items-center relative overflow-hidden">
           {quotes.map((quote, index) => (
             <div
               key={index}
@@ -58,7 +66,8 @@ export default function Testimonial() {
               }`}
             >
               {/* Profile Image */}
-              <div className={`w-24 h-24 rounded-full overflow-hidden flex items-center justify-center ${quote.bgColor}`}>
+              <div
+                className={`w-24 h-24 rounded-full overflow-hidden flex items-center justify-center ${quote.bgColor}`}>
                 <img src={quote.img} alt={quote.name} className="w-full h-full object-cover" />
               </div>
 
@@ -66,11 +75,11 @@ export default function Testimonial() {
               <ReactStars count={5} value={5} size={30} color2="#ffd700" edit={false} className="mt-3" />
 
               {/* Name & Designation */}
-              <h4 className="text-lg font-semibold mt-2">{quote.name}</h4>
-              <h6 className="text-sm text-gray-500">{quote.designation}</h6>
+              <h4 className="text-2xl text-primary font-semibold mt-2">{quote.name}</h4>
+              <h6 className="text-lg text-themeYellow">{quote.designation}</h6>
 
               {/* Testimonial Text */}
-              <blockquote className="mt-4 text-gray-700 text-center px-4">{quote.text}</blockquote>
+              <blockquote className="mt-4 text-secondary text-center px-4">{quote.text}</blockquote>
             </div>
           ))}
         </div>

@@ -10,9 +10,8 @@ export default function Waitlist() {
               Build a Highly Engaged Community Effortlessly
             </h1>
             <p className="text-secondary font-medium text-lg mb-6">
-              Commune provides the essential tools to grow and manage a vibrant community seamlessly.
-              Set up your workspace effortlessly and control everything from members to content in a
-              centralized dashboard.
+              Ready to simplify your team management? Start your free trial today or join
+              our waiting list for new features!
             </p>
             <form className="flex flex-col sm:flex-row gap-4">
               <input
@@ -23,7 +22,7 @@ export default function Waitlist() {
               />
               <button
                 type="submit"
-                className="bg-black text-white font-semibold px-6 py-3 rounded-lg hover:bg-gray-900 transition"
+                className="bg-background text-white font-semibold px-6 py-3 rounded-lg hover:bg-gray-900 transition"
               >
                 Join Waitlist
               </button>

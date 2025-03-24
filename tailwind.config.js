@@ -7,6 +7,7 @@ export default {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         background:"var(--background)",
+        themeYellow:"var(--theme-yellow)",
         main_text: "var(--main_text)",
       },
       fontFamily: {
