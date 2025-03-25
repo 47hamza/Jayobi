@@ -18,7 +18,8 @@ export default function WaitingListSection() {
   };
 
   return (
-    <section className="w-full px-6 py-16 md:py-20 bg-background text-white">
+    <section className="w-full px-6 py-16 md:py-20 bg-background text-white relative">
+       <div className="absolute -right-20 -top-16 md:size-44 rounded-full bg-primary size-36" />
       <div className="max-w-[1240px] mx-auto w-full text-center">
         <h2 className="text-3xl md:text-5xl mb-2 font-bold text-primary text-center">
           Feature Waiting
@@ -67,9 +68,11 @@ export default function WaitingListSection() {
                 Join the Waiting List
               </Button>
             </form>
+         
           </div>
         </div>
       </div>
+      <div className="absolute md:left-[-8%] bottom-[-10%] size-44 rounded-full bg-primary bottom-[-6%] left-[-33%]" />
     </section>
   );
 }

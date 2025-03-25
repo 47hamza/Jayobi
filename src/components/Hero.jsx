@@ -1,4 +1,5 @@
 import Button from "../common/Button";
+import heroImge from '../assets/hero.webp'
 
 const Hero = () => {
   return (
@@ -8,7 +9,7 @@ const Hero = () => {
     >
       <div className="max-w-[1240px] mx-auto px-4 xl:px-6 w-full flex flex-col gap-8 md:flex-row items-center lg:gap-20">
         <div className="md:w-[50%] w-full">
-          <h2 className="text-3xl md:text-5xl mb-2 text-primary font-semibold ">
+          <h2 className="text-3xl md:text-5xl mb-2 text-primary font-semibold  ">
             Simplify Your Team Management with Our All-in-One Platform
           </h2>
 
@@ -18,13 +19,14 @@ const Hero = () => {
           </p>
           <Button className="mt-5 ">Get Started Today</Button>
         </div>
-        {/* <div className="md:w-[50%] w-full grid place-items-center">
+        <div className="md:w-[30%] w-full grid ">
             <img
               src={heroImge}
-              alt="Welcome to MaerBiz"
+              // alt="Welcome to MaerBiz"
               loading="lazy"
+              className="rounded-xl"
             />
-          </div> */}
+          </div>
       </div>
     </section>
   );

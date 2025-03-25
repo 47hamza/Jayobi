@@ -1,6 +1,6 @@
 "use client";
 import { FaSync, FaUsersCog, FaClock, FaCogs } from "react-icons/fa";
-
+import benefitsbg from "../assets/benefits/benefits.svg";
 const benefits = [
   {
     icon: (
@@ -44,7 +44,11 @@ const benefits = [
 
 export default function BenefitsFullScreen() {
   return (
-    <section className="w-full px-6 py-16 md:py-20">
+    <section className="w-full px-6 py-16 md:py-20 relative">
+        <img
+          src={benefitsbg}
+          className="absolute z-0 md:left-[-6%] top-0 left-[-31%]"
+        />
       <div className="max-w-[1240px] mx-auto w-full">
         <div className="relative text-white flex flex-col items-center justify-center">
           <h2 className="text-3xl md:text-5xl mb-2 font-bold text-primary">Benefits</h2>
