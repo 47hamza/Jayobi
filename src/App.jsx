@@ -13,6 +13,7 @@ import FeatureWaiting from "./components/FeatureWaiting.jsx";
 import Testimonial from "./components/testimonial.jsx";
 import Faq from "./components/Faq.jsx";
 import Pricing from "./components/Pricing.jsx";
+import Images from "./components/Images";
 
 function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ function App() {
       <main>
         <Hero />
         <Features />
+        <Images />
         <Benefits />
         <Testimonial />
         <Pricing />
