@@ -10,7 +10,8 @@ const images = [image1, image2, image3, image4, image5];
 
 export default function Images() {
   return (
-    <section  className="py-16 md:py-5 bg-gray-100 ">
+    <section  className="py-16 md:py-5 bg-gray-100 "
+    >
       <div className="max-w-[1240px] mx-auto px-6 ">
         <EmblaCarousel>
           {images.map((image, index) => (

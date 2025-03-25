@@ -1,5 +1,5 @@
 import Button from "../common/Button";
-import heroImge from '../assets/hero.webp'
+import heroImge from '../assets/6206964.jpg'
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
           <Button className="mt-5 ">Get Started Today</Button>
         </div>
-        <div className="md:w-[30%] w-full grid ">
+        <div className="md:w-[35%] w-full grid ">
             <img
               src={heroImge}
               // alt="Welcome to MaerBiz"

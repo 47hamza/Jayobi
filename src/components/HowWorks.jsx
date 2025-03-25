@@ -1,5 +1,6 @@
 import { SiGnuprivacyguard } from "react-icons/si";
 import { FaUsers, FaTasks, FaCogs } from "react-icons/fa";
+import bg from '../assets/hiw.svg'
 
 const data = [
   {
@@ -27,8 +28,9 @@ const data = [
 export default function HowWork() {
   return (
     <section
-      className="w-full px-6 py-16 md:py-20"
+      className="w-full px-6 py-16 md:py-20 bg-no-repeat"
       id="how-it-works"
+      style={{ backgroundImage: `url(${bg})`,backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       <div className="max-w-[1280px] mx-auto w-full">
         <h2 className="text-3xl md:text-5xl mb-2 font-bold text-primary text-center">

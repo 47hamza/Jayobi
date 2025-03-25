@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 import servicebg from "../assets/Services/service-bg.png";
 import EmblaCarousel from "./Embla/EmblaCarousel";
+import bg from "../assets/benifit.svg";
 
 const features = [
   {

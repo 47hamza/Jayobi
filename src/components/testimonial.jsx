@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import ReactStars from "react-stars";
-import bg from '../assets/testimonial.png'
+import bg from '../assets/testimonial.svg'
 
 
 const quotes = [

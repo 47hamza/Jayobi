@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
-import bg from '../assets/faq.jpeg'
+import bg from '../assets/faq.svg'
 
 
 export default function Faq() {

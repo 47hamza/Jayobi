@@ -1,10 +1,12 @@
 "use client";
-import { FaSync, FaUsersCog, FaClock, FaCogs } from "react-icons/fa";
 import benefitsbg from "../assets/benefits/benefits.svg";
+import '../assets/benifit.svg'
+
+import { HiOutlineCog, HiOutlineUsers, HiOutlineRefresh, HiOutlineClock } from "react-icons/hi";
 const benefits = [
   {
     icon: (
-      <FaCogs style={{ transform: "translate(-50px,20px)", color: "black", fontSize: "80px" }} />
+      <HiOutlineCog  style={{ transform: "translate(-50px,20px)", color: "black", fontSize: "100px" }} />
     ),
     title: "Fully Integrated Features",
     desc:
@@ -13,8 +15,8 @@ const benefits = [
   },
   {
     icon: (
-      <FaUsersCog
-        style={{ transform: "translate(-50px,20px)", color: "black", fontSize: "80px" }}
+      <HiOutlineUsers
+        style={{ transform: "translate(-50px,20px)", color: "black", fontSize: "100px" }}
       />
     ),
     title: "Easy-to-Use Interface",
@@ -24,7 +26,7 @@ const benefits = [
   },
   {
     icon: (
-      <FaSync style={{ transform: "translate(-50px,20px)", color: "black", fontSize: "80px" }} />
+      <HiOutlineRefresh  style={{ transform: "translate(-50px,20px)", color: "black", fontSize: "100px" }} />
     ),
     title: "Real-Time Synchronization",
     desc:
@@ -33,7 +35,7 @@ const benefits = [
   },
   {
     icon: (
-      <FaClock style={{ transform: "translate(-50px,20px)", color: "black", fontSize: "80px" }} />
+      <HiOutlineClock  style={{ transform: "translate(-50px,20px)", color: "black", fontSize: "100px" }} />
     ),
     title: "Flexible and Scalable",
     desc:
@@ -44,11 +46,8 @@ const benefits = [
 
 export default function BenefitsFullScreen() {
   return (
-    <section className="w-full px-6 py-16 md:py-20 relative">
-        <img
-          src={benefitsbg}
-          className="absolute z-0 md:left-[-6%] top-0 left-[-31%]"
-        />
+    <section className="w-full px-6 py-16 md:py-20 relative"
+    >
       <div className="max-w-[1240px] mx-auto w-full">
         <div className="relative text-white flex flex-col items-center justify-center">
           <h2 className="text-3xl md:text-5xl mb-2 font-bold text-primary">Benefits</h2>
