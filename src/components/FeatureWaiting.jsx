@@ -72,7 +72,7 @@ export default function WaitingListSection() {
           </div>
         </div>
       </div>
-      <div className="absolute md:left-[-8%] bottom-[-10%] size-44 rounded-full bg-primary bottom-[-6%] left-[-33%]" />
+      <div className="absolute md:left-[-5%] bottom-[-10%] size-44 rounded-full bg-primary bottom-[-6%] left-[-33%]" />
     </section>
   );
 }

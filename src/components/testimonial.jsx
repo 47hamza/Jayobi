@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import ReactStars from "react-stars";
+import bg from '../assets/testimonial.png'
+
 
 const quotes = [
   {
@@ -43,7 +45,8 @@ export default function Testimonial() {
   }, []);
 
   return (
-    <section className="w-full px-6 py-16 md:py-20 bg-background">
+    <section className="py-16 md:py-20 !bg-background !bg-no-repeat !bg-cover !bg-center overflow-hidden "
+    style={{ background: `url(${bg})` }}>
       <div className="max-w-4xl mx-auto w-full relative text-center">
         <h2 className="text-3xl md:text-5xl mb-2 font-bold text-primary">Testimonials</h2>
         <p className="text-lg text-white max-w-4xl mx-auto mb-12 text-center">

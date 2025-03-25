@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import bg from '../assets/faq.jpeg'
+
 
 export default function Faq() {
   const [openIndexes, setOpenIndexes] = useState([]);
@@ -28,7 +30,8 @@ export default function Faq() {
 
   return (
     <section
-      className="w-full px-6 py-16 md:py-20"
+    className="px-6 py-16 md:py-32 !bg-no-repeat !bg-cover !bg-center overflow-hidden "
+    style={{ background: `url(${bg})` }}
       id="faq"
     >
       <div className="max-w-[1240px] mx-auto w-full">

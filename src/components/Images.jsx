@@ -4,12 +4,13 @@ import image2 from "../assets/portfolio/2.png";
 import image3 from "../assets/portfolio/3.png";
 import image4 from "../assets/portfolio/4.png";
 import image5 from "../assets/portfolio/5.png";
+import bg from '../assets/slider/slider.jpeg'
 
 const images = [image1, image2, image3, image4, image5];
 
 export default function Images() {
   return (
-    <section className="py-16 md:py-24 bg-gray-100">
+    <section  className="py-16 md:py-5 bg-gray-100 ">
       <div className="max-w-[1240px] mx-auto px-6 ">
         <EmblaCarousel>
           {images.map((image, index) => (
